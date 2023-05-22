@@ -10,7 +10,7 @@ public class FreelancerVacationService {
                 savings += income - expenses;
             } else {
                 vacationMonths++;
-                savings -= expenses + savings / 3;
+                savings = (savings - expenses) / 3;
             }
         }
 
